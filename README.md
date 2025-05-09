@@ -28,7 +28,15 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
+
+2.compile and run the program.
+
+3.generate RTL schematic and save the logic diagram.
+
+4.Create node for input and output to generate timing diagram.
+
+5.For different input combinations generate the timing diagram.
 
 **PROGRAM**
 
@@ -45,9 +53,10 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=~Q;
 end
 endmodule
- Developed by: AHAMADH SULAIMAN M RegisterNumber: 212224230009
-*/
 ``
+ Developed by: AHAMADH SULAIMAN M RegisterNumber: 212224230009
+
+
 **RTL LOGIC FOR FLIPFLOPS**
 ![Screenshot 2025-05-09 153234](https://github.com/user-attachments/assets/4780287c-1127-4700-821d-6dfc842d3c41)
 
