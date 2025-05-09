@@ -40,7 +40,7 @@ From the above characteristic table, we can directly write the next state equati
 
 **PROGRAM**
 
- ``
+ ```
  module exp9(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
@@ -53,7 +53,8 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=~Q;
 end
 endmodule
-``
+```
+
  Developed by: AHAMADH SULAIMAN M RegisterNumber: 212224230009
 
 
